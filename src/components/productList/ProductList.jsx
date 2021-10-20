@@ -12,7 +12,8 @@ const ProductList = () => {
           Tole pred vami je osebni uvod, ki čaka na vaš poklič in moj poklic.
           Prijetna forma, prijazen slog ter ščepec vsebine.
           <hr/>
-          <a href = {Resume} target = "_blank"> Prenesi CV</a>
+          <a href = {Resume} > Prenesi CV</a>
+          
         </p>
       </div>
       <div className="pl-list">
