@@ -14,7 +14,7 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">O sebi</h1>
         <p className="a-sub">Znano je dejstvo, da bralca usmerja berljivost vsebine.</p>
-        <p className="a-desc">Eno je forma, en je Vsebina. Manj je več ter fokus na vsebino, so moji vodniki. Vsebina pa ni nujno Sabina :).</p>
+        <p className="a-desc">Eno je forma - en je Vsebina. <strong>Manj je več</strong> in <strong>fokus na vsebini</strong> sta hvaležni vrlini.</p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">

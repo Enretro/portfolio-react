@@ -1,4 +1,5 @@
 import "./productList.css";
+import Resume from '../../resume.pdf';
 import Product from "../product/Product";
 import { products } from "../../data";
 
@@ -8,8 +9,10 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">Kreiraj & Navdihuj...</h1>
         <p className="pl-desc">
-          Tole je osebni portfelj, ki čaka na vaš pokli(č)c.
-          Prijetna forma in prijazen slog z bogastvom vsebine.
+          Tole pred vami je osebni uvod, ki čaka na vaš poklič in moj poklic.
+          Prijetna forma, prijazen slog ter ščepec vsebine.
+          <hr/>
+          <a href = {Resume} target = "_blank"> Prenesi CV</a>
         </p>
       </div>
       <div className="pl-list">

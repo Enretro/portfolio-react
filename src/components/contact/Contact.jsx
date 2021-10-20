@@ -30,7 +30,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Pogovoriva se o projektu.</h1>
+          <h1 className="c-title">Let's talk about and then do some business about.</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Zaupaj svoje želje</b> Stopi v stik. Vselej sem na voljo, zlasti če mi je projekt blizu.
+            <b>Zaupaj v Ase.</b> Stopi v stik. Vselej sem na voljo, zlasti za projekte, ki so nam skupni in blizu.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Naziv" name="user_name" />
