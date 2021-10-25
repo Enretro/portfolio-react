@@ -22,6 +22,8 @@ const About = () => {
               Baron <em>Georg Freiherr von Vega priznanje</em> 1985 za matematične dosežke.
             </h4>
             <p className="a-award-desc">Jurij Vega je, kot major topničar, streljal na junake francoske revolucije.</p>
+            <a className="a-links" href={'https://app.netlify.com/teams/enretro/overview'}>Netlify  </a>
+            <a className="a-links" href={'https://github.com/Enretro?tab=repositories'}> GitHub</a>
           </div>
         </div>
       </div>

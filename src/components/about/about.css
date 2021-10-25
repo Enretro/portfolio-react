@@ -73,6 +73,25 @@
     margin-bottom: 10px;
 }
 
+.a-links {
+  text-decoration: none;
+  color: #59b256;
+}
+
+.a-links:hover {
+  text-decoration: underline;
+}
+
+.alinks:visited {
+  color: #fff;
+}
+
+.a-award-texts > a > i {
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
 @media screen and (max-width:480px) {
     .a{
       flex-direction: column;

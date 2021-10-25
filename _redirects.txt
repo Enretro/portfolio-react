@@ -1,0 +1,5 @@
+Bohorc_47 
+enpurgathory666
+
+
+mongodb+srv://<username>:<password>@cluster0.vhwte.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
