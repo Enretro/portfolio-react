@@ -15,7 +15,7 @@ const About = () => {
         <h1 className="a-title">O sebi</h1>
         <p className="a-sub">Znano je dejstvo, da bralca usmerja berljivost vsebine.</p>
         <p className="a-desc">
-          Eno je forma - en je Vsebina. <strong>Manj je več</strong> in <strong>fokus na vsebini</strong> sta hvaležni vrlini.
+          Eno je forma - en je Vsebina. <strong>Manj je več</strong>s pozornostjo na<strong>vsebini</strong> sta hvaležni vrlini.
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
