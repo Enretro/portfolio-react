@@ -6,18 +6,19 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Bok, moje ime je en...</h2>
+          <h2 className="i-intro">Pozdravljeni, moje ime je...</h2>
           <h1 className="i-name">Kostanjšek Iztok</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Analitik</div>
-              <div className="i-title-item">Web/Log Administrator</div>
+              <div className="i-title-item">Web/Log Skrbnik</div>
               <div className="i-title-item">Mediator</div>
               <div className="i-title-item">Pivovar</div>
+              <div className="i-title-item">Vzdrževalec</div>
               <div className="i-title-item">Promotor</div>
             </div>
           </div>
-          <p className="i-desc">Oblikujem, kodiram in promoviram spletne aplikacije za uporabnike vseh velikosti, mladosti in ♀ ♂.</p>
+          <p className="i-desc">Moj hoby je blikovanje, kodiranje, optimiranje in promoviranje spletnih aplikacij za uporabnike vseh velikosti, mladosti in ♀ ♂.</p>
         </div>
         <svg width="75" height="75" viewBox="0 0 75 75" fill="none" stroke="black" className="i-scroll" xmlns="http://www.w3.org/2000/svg">
           <g id="scroll">

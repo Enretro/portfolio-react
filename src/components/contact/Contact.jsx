@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-              info@blog.pro
+              info@blog.pro || envpogled@gmail.com
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
@@ -48,14 +48,14 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Zaupaj v Ase.</b> Stopi v stik. Vselej sem na voljo, zlasti za projekte, ki so nam skupni in blizu.
+            <b>Zaupaj v Ase.</b> Stopi v stik. Vselej smo na voljo, zlasti za stvari-projekte, ki so nam blizu.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Naziv" name="user_name" />
             <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Zadeva" name="user_subject" />
             <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="E-naslov" name="user_email" />
             <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Sporočilo" name="message" />
-            <button>Odpošlji</button>
+            <button>Pošlji</button>
             {done && "Hvala..."}
           </form>
         </div>
